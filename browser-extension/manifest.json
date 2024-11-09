@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Blind ReadAloud",
+  "version": "1.0",
+  "action": {
+    "default_icon": "assets/icons8-megaphone-48.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["contentScript.js"]
+    }
+  ],
+  "commands": {
+    "open-freedium": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+R"
+      },
+      "description": "Reads out major contents of a webpage to a blind person"
+    }
+  }
+}
