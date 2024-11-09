@@ -2,7 +2,7 @@
 
 ## Overview
 
-Braille-Convert is a project designed to convert text to Braille, making it accessible to visually impaired individuals. This repository includes a combination of several technologies to achieve seamless text-to-Braille conversion and display.
+**Braille-Convert** is a project designed to convert text to Braille, making it accessible to visually impaired individuals. This repository includes a combination of several technologies to achieve seamless text-to-Braille conversion and display.
 
 ## Features
 
@@ -34,7 +34,7 @@ Braille-Convert is a project designed to convert text to Braille, making it acce
    ```sh
    git clone https://github.com/VivekNeer/Braille-Convert.git
    cd Braille-Convert
-   ```
+
 
 2. **Install Dependencies:**
 
@@ -45,7 +45,7 @@ Braille-Convert is a project designed to convert text to Braille, making it acce
 3. **Run the Development Server:**
 
    ```sh
-   npm start
+   npm run dev
    ```
 
 4. **Build for Production:**
