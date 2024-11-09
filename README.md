@@ -13,7 +13,7 @@ Braille-Convert is a project designed to convert text to Braille, making it acce
 
 ## Technologies Used
 
-- **mupdf:** A lightweight PDF and XPS viewer.
+- **jspdf:** A lightweight PDF and XPS viewer.
 - **React:** A JavaScript library for building user interfaces.
 - **Tailwind CSS:** A utility-first CSS framework for rapid UI development.
 - **DaisyUI:** A Tailwind CSS component library.
